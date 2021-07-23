@@ -34,9 +34,9 @@
 
                 
                 <div class="d-flex justify-content-between mt-5" style="width: 500px">
-                    <button class="btn btn-outline-light">This might take a while...</button>
-                    <button class="btn btn-outline-light">No Prob</button>
-                    <button class="btn btn-outline-light">Surely this will work...</button>
+                    <a class="btn btn-outline-light" href="/worksfast">This might take a while...</a>
+                    <a class="btn btn-outline-light" href="/noproblem">No Prob</a>
+                    <a class="btn btn-outline-light" href="/works">Surely this will work...</a>
                 </div>
             </div>
         </div>
