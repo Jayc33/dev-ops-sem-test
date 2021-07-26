@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/vue', function () {
+    return view('vue');
+});
+
 Route::get('/definitelyworks', [TestController::class, 'throwsError']);
 Route::get('/worksfast', [TestController::class, 'takesAWhile']);
 Route::get('/noproblem', [TestController::class, 'noProblemsHere']);
