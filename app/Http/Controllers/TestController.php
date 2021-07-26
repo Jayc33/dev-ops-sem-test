@@ -14,7 +14,7 @@ class TestController extends Controller
 
     public function takesAWhile(Request $request)
     {
-        sleep(3);
+        sleep(rand(2, 4));
         return redirect("/");
     }
 
